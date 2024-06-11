@@ -4,7 +4,9 @@
     margin: 0;
     box-sizing: border-box;
 
-    font-family: 'French Script MT', sans-serif;
+    font-family: 'Lucida Sans', sans-serif;
+font-family: 'Lucida Sans Typewriter', sans-serif;
+font-family: 'Lucida Sans Unicode', sans-serif;
 
     list-style: none;
     text-decoration: none;
@@ -38,6 +40,9 @@ header
 .navlist
 {
     display: flex;
+    font-family: 'Lucida Sans', sans-serif;
+font-family: 'Lucida Sans Typewriter', sans-serif;
+font-family: 'Lucida Sans Unicode', sans-serif;
 
     
 }
@@ -73,7 +78,7 @@ header
     height: 100%;
     width: 100%;
     min-height: 100vh;
-    background: linear-gradient(245.59deg, #b0dbb2 0%, #c277b4 28.53%, #9a569c 75.52%);
+    background: linear-gradient(245.59deg, #b0dbb2 0%,#ccded4  28.53%, #cfb9d8 75.52%);
     position: relative;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -100,6 +105,17 @@ section
     line-height: 1;
     color: white;
     margin: 0 0 45px;
+    font-family: 'French Script MT', sans-serif;
+}
+
+.elas
+{
+    font-size:90px;
+    line-height: 1;
+    color: rgb(177,119,169);
+    margin: 0 0 45px;
+    font-family: 'French Script MT', sans-serif;
+
 }
 
 .hero-text h4
@@ -108,13 +124,35 @@ section
     font-weight: 600;
     color: white;
     margin-bottom: 10px;
+    font-family: 'Lucida Sans', sans-serif;
+font-family: 'Lucida Sans Typewriter', sans-serif;
+font-family: 'Lucida Sans Unicode', sans-serif;
 }
 
 .hero-text p
 {
     color: white;
-    font-size: 20px;
+    font-size: 15px;
     line-height: 1.9;
     margin-bottom: 40px;
 
+}
+
+.hero-img
+{
+    width: 700px;
+    height: auto;
+}
+
+.hero-text a 
+{
+    display: inline-block;
+    color: white;
+    background:  rgb(177,119,169);
+    border: 1px solid transparent;
+    padding: 12px 30px;
+    line-height: 1.4;
+    font-size: 14px;
+    font-weight: 500;
+    border-radius: 30px;
 }
